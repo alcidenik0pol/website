@@ -90,8 +90,9 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "NFT Marketplace",
-    description: "Powered by Infura",
+    title: "Infura-powered Kickstarter",
+    description:
+      "Stack: Solidity, Infura, Web3.js, Next.js, Truffle, Ganache, Mocha.",
     image: "/images/projects/nftmarketplace.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/vtennero/CrowdCoinStarter2",
@@ -99,22 +100,23 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Autonomous Ridehailing App",
-    description: "description of the challenge and result",
+    title: "Full-Stack Ridehailing App for Autonomous Cab Navya",
+    description:
+      "Representend Navya (EPA:NAVYA) at the 2019 Consumer Electronics Show in Las Vegas",
     image: "/images/projects/navya.png",
     tag: ["Engineering", "All"],
     gitUrl: "",
     previewUrl: "https://www.youtube.com/watch?v=dFgFo5qkp5M",
   },
-  {
-    id: 7,
-    title: "Kawaguchiko",
-    description: "Oil Painting",
-    image: "/images/projects/kawaguchiko.png",
-    tag: ["Art", "All"],
-    gitUrl: "",
-    previewUrl: "https://art-gallery-ext.vercel.app/",
-  },
+  // {
+  //   id: 7,
+  //   title: "Kawaguchiko",
+  //   description: "Oil Painting",
+  //   image: "/images/projects/kawaguchiko.png",
+  //   tag: ["Art", "All"],
+  //   gitUrl: "",
+  //   previewUrl: "https://art-gallery-ext.vercel.app/",
+  // },
   {
     id: 8,
     title: "Investment & Exit of AI Micro-Weather Forecasting Meteoswift",
@@ -125,15 +127,15 @@ const projectsData = [
     previewUrl:
       "https://www.trailstonegroup.com/latest-news/Trailstone-acquires-meteo-swift-to-strengthen-AI-and-forecasting-capabilities",
   },
-  // {
-  //   id: 12,
-  //   title: "The Fishermen",
-  //   description: "Oil Painting",
-  //   image: "/images/projects/fishermen.png",
-  //   tag: ["Art", "All"],
-  //   gitUrl: "",
-  //   previewUrl: "https://art-gallery-ext.vercel.app/",
-  // },
+  {
+    id: 12,
+    title: "The Fishermen",
+    description: "Oil Painting",
+    image: "/images/projects/fishermen.png",
+    tag: ["Art", "All"],
+    gitUrl: "",
+    previewUrl: "https://art-gallery-ext.vercel.app/",
+  },
   {
     id: 10,
     title: "HEC Paris Alumni in Singapore",
@@ -166,7 +168,8 @@ const projectsData = [
   {
     id: 20,
     title: "Interactive Gamified Resume",
-    description: "",
+    description:
+      "My first Web project in 2016: an online interactive, gamified resume using javascript parallax scrolling & hand-made pixel-art graphics",
     image: "/images/projects/2016website.png",
     tag: ["Engineering", "All"],
     gitUrl: "",
