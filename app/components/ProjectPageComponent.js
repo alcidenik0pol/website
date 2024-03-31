@@ -31,8 +31,12 @@ const ProjectPageComponent = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base md:text-lg text-justify">I Am God.</p>
-          <div className="flex flex-row justify-start mt-8"></div>
-          <div className="mt-8"></div>
+          <div className="flex flex-row justify-start mt-8 border-t border-coolGray-200">
+            hello woerld hello woerld hello woerld hello woerld hello woerld
+            hello woerld hello woerld hello woerld hello woerld hello woerld
+            hello woerld hello woerld hello woerld hello woerld hello woerld
+          </div>
+          <div className="mt-8">hello world 2</div>
         </div>
       </div>
     </section>

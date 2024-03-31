@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
+        <div className="col-span-8 place-self-center text-center sm:text-left sm:justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-700">
               Hello, I am Victor
@@ -15,14 +15,13 @@ const HeroSection = () => {
             <br />
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 "I Build",
-                1500, // wait 1s before replacing "Mice" with "Hamsters"
+                1500,
                 "I Invest",
                 1500,
                 "I Paint",
                 1500,
-                "I Unite",
+                "I Engage",
                 1500,
               ]}
               wrapper="span"
