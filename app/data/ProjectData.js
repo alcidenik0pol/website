@@ -5,8 +5,8 @@ const projectsData = [
     description: "",
     image: "/images/projects/hackathon2023.png",
     tag: ["Engineering", "All"],
-    gitUrl: "https://github.com/Aniloid2/LLM_bio_hackathon/tree/master",
-    previewUrl: "/engineering/hackathon-2023",
+    gitUrl: "https://github.com/vtennero/meta-aria-workshop",
+    // previewUrl: "/engineering/hackathon-2023",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const projectsData = [
     image: "/images/projects/hackathon2023.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/Aniloid2/LLM_bio_hackathon/tree/master",
-    previewUrl: "/engineering/hackathon-2023",
+    // previewUrl: "/engineering/hackathon-2023",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projectsData = [
       "Stack: Solidity, Infura, Web3.js, Next.js, Truffle, Ganache, Mocha.",
     image: "/images/projects/nftmarketplace.png",
     tag: ["Engineering", "All"],
-    gitUrl: "https://github.com/vtennero/CrowdCoinStarter2",
+    gitUrl: "https://camerata.vercel.app/",
     previewUrl: "",
   },
   {

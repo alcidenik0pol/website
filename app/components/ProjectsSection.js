@@ -15,7 +15,7 @@ const ProjectsSection = () => {
     project.tag.includes(tag)
   );
   return (
-    <div>
+    <div id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4">
         My Work
       </h2>
