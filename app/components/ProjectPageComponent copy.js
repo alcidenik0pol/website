@@ -20,6 +20,7 @@ const ProjectPageComponent = () => {
           src="/images/projects/hackathon2023.png"
           width={500}
           height={500}
+          alt=""
         ></Image>
         <video className="h-full w-full rounded-lg" controls autoPlay muted>
           <source
