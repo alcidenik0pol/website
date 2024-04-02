@@ -1,7 +1,19 @@
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowTopRightOnSquareIcon,
+  BookOpenIcon,
+  CodeBracketIcon,
+  EyeIcon,
+} from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+const ProjectCard = ({
+  imgUrl,
+  title,
+  description,
+  gitUrl,
+  previewUrl,
+  extUrl,
+}) => {
   return (
     <div>
       <div
@@ -26,7 +38,15 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
               href={previewUrl}
               className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
             >
-              <EyeIcon className="h-10 w-10 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+              <BookOpenIcon className="h-10 w-10 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+            </Link>
+          )}
+          {extUrl && (
+            <Link
+              href={extUrl}
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <ArrowTopRightOnSquareIcon className="h-10 w-10 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
             </Link>
           )}
         </div>

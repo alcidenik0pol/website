@@ -3,10 +3,11 @@ const projectsData = [
     id: 1,
     title: "Meta Aria workshop",
     description: "",
-    image: "/images/projects/hackathon2023.png",
+    image: "/images/projects/meta-aria.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/vtennero/meta-aria-workshop",
-    // previewUrl: "/engineering/hackathon-2023",
+    previewUrl: "/posts/meta-aria-2023",
+    extUrl: "https://www.projectaria.com/",
   },
   {
     id: 2,
@@ -15,7 +16,9 @@ const projectsData = [
     image: "/images/projects/hackathon2023.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/Aniloid2/LLM_bio_hackathon/tree/master",
-    // previewUrl: "/engineering/hackathon-2023",
+    previewUrl: "/posts/llm-hackathon-2023",
+    extUrl:
+      "https://www.sginnovate.com/event/hackathon-large-language-models-bio",
   },
   {
     id: 3,
@@ -24,17 +27,18 @@ const projectsData = [
     image: "/images/projects/breezometer.png",
     tag: ["Investment", "All"],
     gitUrl: "",
-    previewUrl: "https://www.calcalistech.com/ctechnews/article/sycbrdpbi",
+    previewUrl: "/posts/breezometer",
+    extUrl: "https://www.calcalistech.com/ctechnews/article/sycbrdpbi",
   },
   {
     id: 5,
     title: "The Camerata",
-    description:
-      "Stack: Solidity, Infura, Web3.js, Next.js, Truffle, Ganache, Mocha.",
-    image: "/images/projects/nftmarketplace.png",
+    description: "The AI World Starts Here",
+    image: "/images/projects/camerata.png",
     tag: ["Engineering", "All"],
-    gitUrl: "https://camerata.vercel.app/",
-    previewUrl: "",
+    gitUrl: "https://github.com/vtennero/camerata",
+    previewUrl: "/posts/camerata",
+    extUrl: "https://camerata.vercel.app/",
   },
   {
     id: 6,
@@ -44,7 +48,8 @@ const projectsData = [
     image: "/images/projects/navya.png",
     tag: ["Engineering", "All"],
     gitUrl: "",
-    previewUrl: "https://www.youtube.com/watch?v=dFgFo5qkp5M",
+    previewUrl: "/posts/navya-42",
+    extUrl: "https://www.youtube.com/watch?v=dFgFo5qkp5M",
   },
   // {
   //   id: 7,
@@ -62,7 +67,8 @@ const projectsData = [
     image: "/images/projects/meteoswift.png",
     tag: ["Investment", "All"],
     gitUrl: "",
-    previewUrl:
+    previewUrl: "/posts/meteoswift",
+    extUrl:
       "https://www.trailstonegroup.com/latest-news/Trailstone-acquires-meteo-swift-to-strengthen-AI-and-forecasting-capabilities",
   },
   {
@@ -71,8 +77,9 @@ const projectsData = [
     description: "Oil Painting",
     image: "/images/projects/fishermen.png",
     tag: ["Art", "All"],
-    gitUrl: "",
-    previewUrl: "https://art-gallery-ext.vercel.app/",
+    gitUrl: "https://github.com/vtennero/art_gallery",
+    // previewUrl: "/posts/art",
+    extUrl: "https://art-gallery-ext.vercel.app/",
   },
   {
     id: 10,
@@ -81,7 +88,8 @@ const projectsData = [
     image: "/images/projects/hec.png",
     tag: ["Community Building", "All"],
     gitUrl: "",
-    previewUrl:
+    previewUrl: "/posts/hec",
+    extUrl:
       "https://www.linkedin.com/feed/update/urn:li:activity:7036967797494583296/",
   },
   {
@@ -92,7 +100,8 @@ const projectsData = [
     image: "/images/projects/weride.png",
     tag: ["Investment", "All"],
     gitUrl: "",
-    previewUrl: "https://www.weride.ai/posts/22",
+    previewUrl: "/posts/weride",
+    extUrl: "https://www.weride.ai/posts/22",
   },
   {
     id: 15,
@@ -101,7 +110,8 @@ const projectsData = [
     image: "/images/projects/sea.png",
     tag: ["Community Building", "All"],
     gitUrl: "",
-    previewUrl: "https://vtennero.substack.com/",
+    previewUrl: "/posts/asean-tech-digest",
+    extUrl: "https://vtennero.substack.com/",
   },
   {
     id: 20,
@@ -109,9 +119,10 @@ const projectsData = [
     description:
       "My first Web project in 2016: an online interactive, gamified resume using javascript parallax scrolling & hand-made pixel-art graphics",
     image: "/images/projects/2016website.png",
-    tag: ["Engineering", "All"],
+    tag: ["Engineering", "All", "Art"],
     gitUrl: "",
-    previewUrl: "https://2016website.vercel.app/",
+    previewUrl: "/posts/interactive-online-resume",
+    extUrl: "https://2016website.vercel.app/",
   },
   // {
   //   id: 21,
