@@ -1,8 +1,9 @@
 const projectsData = [
   {
     id: 1,
-    title: "Meta Aria workshop",
-    description: "",
+    title: "Future of Fashion: AI-Driven Cloth Detection for Aria AR Glasses",
+    description:
+      "At Meta HQ, I developed an AR cloth shopping app, blending fashion with technology for seamless style discovery through Aria Glasses.",
     image: "/images/projects/meta-aria.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/vtennero/meta-aria-workshop",
