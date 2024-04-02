@@ -23,7 +23,7 @@ const H3 = ({ children }) => (
 );
 const P = ({ children }) => <p className="mb-4">{children}</p>; // Tailwind CSS for margin between paragraphs
 const Img = ({ src, alt }) => (
-  <img src={src} alt={alt} className="mx-auto block" />
+  <img src={src} alt={alt} className="mx-auto block p-4" />
 ); // Center images
 
 // Markdown Importer Component
@@ -49,7 +49,7 @@ const MarkdownImporter = ({ slug }) => {
   };
 
   return (
-    <div className="text-white text-justify">
+    <div className="text-white text-justify markdown">
       <article>
         <Markdown options={options}>{post.content}</Markdown>
       </article>
