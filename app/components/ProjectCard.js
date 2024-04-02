@@ -36,7 +36,7 @@ const ProjectCard = ({
           {previewUrl && (
             <Link
               href={previewUrl}
-              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+              className="h-14 mr-2 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
             >
               <BookOpenIcon className="h-10 w-10 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
             </Link>
