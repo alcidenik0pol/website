@@ -1,3 +1,4 @@
+// app/posts/[slug]/page.js
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import MarkdownImporter from "@/app/components/MarkdownImporter";
