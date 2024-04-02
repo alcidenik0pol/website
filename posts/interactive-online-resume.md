@@ -7,6 +7,8 @@ url: "interactive-online-resume"
 
 ## Interactive Gamified Resume
 
+### 2016
+
 Drawing from my love for classic video games like MegaMan for the desktop version, and the stylish Tokyo 42 for mobile, I aimed to infuse my resume with the essence of these games.
 
 I envisioned making my resume not just interactive and engaging but a creative venture that truly connects the dots between my experiences and skills.

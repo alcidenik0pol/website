@@ -15,8 +15,16 @@ function getPostContent(slug) {
 }
 
 // Custom components for Markdown elements
-const H2 = ({ children }) => <h2 className="text-2xl mb-4 mt-6">{children}</h2>; // Tailwind CSS for larger text and margin
+const H2 = ({ children }) => (
+  <h2 className="text-2xl font-semibold mb-4 mt-6">{children}</h2>
+); // Tailwind CSS for larger text and margin
+const H3 = ({ children }) => (
+  <h3 className="font-light mb-4 mt-6">{children}</h3>
+);
 const P = ({ children }) => <p className="mb-4">{children}</p>; // Tailwind CSS for margin between paragraphs
+const Img = ({ src, alt }) => (
+  <img src={src} alt={alt} className="mx-auto block" />
+); // Center images
 
 // Markdown Importer Component
 const MarkdownImporter = ({ slug }) => {
@@ -28,8 +36,14 @@ const MarkdownImporter = ({ slug }) => {
       h2: {
         component: H2,
       },
+      h3: {
+        component: H3, // Include the custom H3 component with styling
+      },
       p: {
         component: P,
+      },
+      img: {
+        component: Img, // Override image component for centering
       },
     },
   };

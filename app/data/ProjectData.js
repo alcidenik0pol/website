@@ -77,7 +77,7 @@ const projectsData = [
     description: "Oil Painting",
     image: "/images/projects/fishermen.png",
     tag: ["Art", "All"],
-    gitUrl: "https://github.com/vtennero/art_gallery",
+    // gitUrl: "https://github.com/vtennero/art_gallery",
     // previewUrl: "/posts/art",
     extUrl: "https://art-gallery-ext.vercel.app/",
   },
@@ -88,7 +88,7 @@ const projectsData = [
     image: "/images/projects/hec.png",
     tag: ["Community Building", "All"],
     gitUrl: "",
-    previewUrl: "/posts/hec",
+    // previewUrl: "/posts/hec",
     extUrl:
       "https://www.linkedin.com/feed/update/urn:li:activity:7036967797494583296/",
   },
