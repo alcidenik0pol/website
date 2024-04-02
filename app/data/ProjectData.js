@@ -11,8 +11,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "LLM to detect tumors faster",
-    description: "",
+    title: "LLM-Powered Medical Breakthroughs at 4G Catalyzer Hackathon",
+    description:
+      "Pioneering with LLMs at 4G Catalyzer's Hackathon: A leap in medical diagnostics on Rothberg's superyacht",
     image: "/images/projects/hackathon2023.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/Aniloid2/LLM_bio_hackathon/tree/master",
@@ -33,7 +34,8 @@ const projectsData = [
   {
     id: 5,
     title: "The Camerata",
-    description: "The AI World Starts Here",
+    description:
+      "Uniting Arts & Sciences: My digital council of AI advisors for life's every facet.",
     image: "/images/projects/camerata.png",
     tag: ["Engineering", "All"],
     gitUrl: "https://github.com/vtennero/camerata",
@@ -44,7 +46,8 @@ const projectsData = [
     id: 6,
     title: "Full-Stack Ridehailing App for Autonomous Cab Navya",
     description:
-      "Representend Navya (EPA:NAVYA) at the 2019 Consumer Electronics Show in Las Vegas",
+      // "Representend Navya (EPA:NAVYA) at the 2019 Consumer Electronics Show in Las Vegas",
+      "At CES with Navya: Presenting our pioneering solution for the future of autonomous travel & meetings.",
     image: "/images/projects/navya.png",
     tag: ["Engineering", "All"],
     gitUrl: "",
@@ -73,8 +76,9 @@ const projectsData = [
   },
   {
     id: 12,
-    title: "The Fishermen",
-    description: "Oil Painting",
+    title: "Vivid Visions: My World in Oil",
+    description:
+      "Painted with Pasion. Each piece, a glimpse into my artistic voyage.",
     image: "/images/projects/fishermen.png",
     tag: ["Art", "All"],
     // gitUrl: "https://github.com/vtennero/art_gallery",
@@ -105,8 +109,9 @@ const projectsData = [
   },
   {
     id: 15,
-    title: "Asean Tech Digest Newsletter",
-    description: "800 Suscribers",
+    title: "Asean Tech Digest",
+    description:
+      "Guiding 800 subscribers and Eurazeo to pioneering Venture Capital investments in Southeast Asia.",
     image: "/images/projects/sea.png",
     tag: ["Community Building", "All"],
     gitUrl: "",
@@ -116,8 +121,7 @@ const projectsData = [
   {
     id: 20,
     title: "Interactive Gamified Resume",
-    description:
-      "My first Web project in 2016: an online interactive, gamified resume using javascript parallax scrolling & hand-made pixel-art graphics",
+    description: "My life's achievements in a game.",
     image: "/images/projects/2016website.png",
     tag: ["Engineering", "All", "Art"],
     gitUrl: "",
