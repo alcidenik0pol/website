@@ -79,7 +79,7 @@ const projectsData = [
     id: 12,
     title: "Vivid Visions: My World in Oil",
     description:
-      "Painted with Pasion. Each piece, a glimpse into my artistic voyage.",
+      "Painted with Passion. Each piece, a glimpse into my artistic voyage.",
     image: "/images/projects/fishermen.png",
     tag: ["Art", "All"],
     // gitUrl: "https://github.com/vtennero/art_gallery",
