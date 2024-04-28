@@ -6,7 +6,7 @@ Participating in a hackathon on serial entrepreneur and billionaire Jonathan Rot
 
 Understanding the projection that by 2030 synthetic data will significantly outpace real data in AI model training, coupled with the trend towards AI-embedded hardware devices, we envisioned creating a solution that would harness LLMs for synthetic medical data generation. This approach promised enhanced privacy, scalability, and quicker market readiness, especially for medical devices like Rothberg's.
 
-Our team developed an LLM model capable of generating synthetic data to enhance tumor detection in Butterfly's portable ultrasound system. Using PyTorch, Dreambooth, and stable diffusion models, we deployed our solution on Gradio for visual demonstrations, applying fine-tuning techniques with both DreamBooth and LORA across stable-diffusion-v1 and v2 models.
+Our team developed a fine-tuned LLM model capable of generating synthetic data to enhance tumor detection in Butterfly's portable ultrasound system. Using PyTorch, Dreambooth, and stable diffusion models, we deployed our solution on Gradio for visual demonstrations, applying fine-tuning techniques with both DreamBooth and LORA across stable-diffusion-v1 and v2 models.
 
 Despite not winning the hackathon, our project marked a significant step forward in applying AI to improve medical diagnostics, showcasing the potential of synthetic data in enhancing the accuracy and efficacy of portable medical devices.
 
