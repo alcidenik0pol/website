@@ -18,6 +18,6 @@ The technical foundation was set with Next.js and Tailwind for the frontend, pai
 <!-- [![](/images/projects/camerata.png)](https://camerata.vercel.app/) -->
 
 <video class="video-style" controls autoplay muted>
-  <source src="/images/projects/socrates.mkv" type="video/mkv" />
+  <source src="/images/projects/socrates.mkv" type="video/webm" />
   Your browser does not support the video tag.
 </video>
