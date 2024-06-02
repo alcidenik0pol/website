@@ -15,4 +15,9 @@ In this spirit, The Camerata aims to provide a digital council of AI advisors, e
 
 The technical foundation was set with Next.js and Tailwind for the frontend, paired with a backend API on Google Cloud. The system is powered by LangChain and OpenAI, with Python Flask managing the interactions for each specialized advisor.
 
-[![](/images/projects/camerata.png)](https://camerata.vercel.app/)
+<!-- [![](/images/projects/camerata.png)](https://camerata.vercel.app/) -->
+
+<video class="video-style" controls autoplay muted>
+  <source src="/images/projects/socrates.mkv" type="video/mkv" />
+  Your browser does not support the video tag.
+</video>
