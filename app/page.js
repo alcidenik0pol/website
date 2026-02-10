@@ -11,30 +11,50 @@ export const metadata = {
 
 function ItemRow({ item }) {
   return (
-    <div className="flex justify-between items-center py-1 group">
-      <div className="flex-1">
+    <div className="flex justify-between items-start py-1 group gap-2">
+      <div className="flex-1 min-w-0">
         <a
           href={item.externalUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="group-hover:text-primary transition-colors"
+          className="group-hover:text-primary transition-colors block"
         >
           {item.title}
         </a>
-        {item.exit && (
-          <span className="ml-2 text-xs text-muted-foreground">
-            → {item.exit}
-            {item.exitAmount && ` · ${item.exitAmount}`}
-          </span>
-        )}
-        {item.ipo && (
-          <span className="ml-2 text-xs text-muted-foreground">
-            IPO → {item.ipo}
-            {item.ipoAmount && ` · ${item.ipoAmount}`}
-          </span>
+        {(item.exit || item.ipo) && (
+          <div className="text-xs text-muted-foreground mt-0.5">
+            {item.exit && (
+              <>→ {item.exit}{item.exitAmount && ` · ${item.exitAmount}`}</>
+            )}
+            {item.ipo && (
+              <>IPO → {item.ipo}{item.ipoAmount && ` · ${item.ipoAmount}`}</>
+            )}
+          </div>
         )}
       </div>
-      <span className="text-xs text-muted-foreground ml-4">{item.year}</span>
+      <span className="text-xs text-muted-foreground shrink-0">{item.year}</span>
+    </div>
+  );
+}
+
+function EngineeringItemRow({ item }) {
+  const [category, ...rest] = item.title.split(' - ');
+  const subtitle = rest.join(' - ');
+
+  return (
+    <div className="flex justify-between items-start gap-3 py-2 group">
+      <div className="flex-1 min-w-0">
+        <a
+          href={item.externalUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group-hover:text-primary transition-colors"
+        >
+          <p className="text-sm text-muted-foreground font-light">{category}</p>
+          <p className="font-medium">{subtitle}</p>
+        </a>
+      </div>
+      <span className="text-xs text-muted-foreground shrink-0">{item.year}</span>
     </div>
   );
 }
@@ -46,7 +66,7 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <ResearcherHeader />
       <main className="max-w-4xl mx-auto px-4 py-8 md:px-6">
         {/* Header */}
@@ -116,7 +136,7 @@ export default function Home() {
           </a>
           <div className="space-y-1">
             {engineeringData.map((project) => (
-              <ItemRow key={project.slug} item={project} />
+              <EngineeringItemRow key={project.slug} item={project} />
             ))}
           </div>
         </section>
