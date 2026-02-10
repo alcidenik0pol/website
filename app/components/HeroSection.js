@@ -31,7 +31,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-lg lg:text-xl mb-6">
-            {/* Venture Capitalist Based in Singapore */}
+            Based in NYC. Previously: 7 years Singapore, 8 years Japan.
           </p>
           <div>
             {/* <Link href="#contact" passHref>

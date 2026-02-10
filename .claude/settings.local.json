@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npx next build:*)",
+      "Bash(powershell:*)",
+      "Bash(del \"C:\\\\Users\\\\victo\\\\OneDrive\\\\Documents\\\\__DEV\\\\website\\\\app\\\\icon.js\")"
+    ]
+  }
+}

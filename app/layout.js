@@ -5,12 +5,16 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Victor Tenneroni",
-  description: "",
+  description: "Researcher, investor, and engineer.",
+  icons: {
+    icon: "/images/icon.png",
+    apple: "/images/icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>{children}</body>
     </html>
   );
