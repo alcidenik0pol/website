@@ -34,7 +34,7 @@ const investmentsData = [
     year: 2021,
     exit: "Grab",
     exitAmount: "$600M",
-    externalUrl: "https://vay.com/",
+    externalUrl: "https://vay.io/",
   },
   {
     slug: "breezometer",
