@@ -6,7 +6,8 @@
       "Bash(npm run build)",
       "Bash(npx next build:*)",
       "Bash(powershell:*)",
-      "Bash(del \"C:\\\\Users\\\\victo\\\\OneDrive\\\\Documents\\\\__DEV\\\\website\\\\app\\\\icon.js\")"
+      "Bash(del \"C:\\\\Users\\\\victo\\\\OneDrive\\\\Documents\\\\__DEV\\\\website\\\\app\\\\icon.js\")",
+      "Bash(npm run lint)"
     ]
   }
 }
