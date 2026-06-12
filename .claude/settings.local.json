@@ -7,7 +7,9 @@
       "Bash(npx next build:*)",
       "Bash(powershell:*)",
       "Bash(del \"C:\\\\Users\\\\victo\\\\OneDrive\\\\Documents\\\\__DEV\\\\website\\\\app\\\\icon.js\")",
-      "Bash(npm run lint)"
+      "Bash(npm run lint)",
+      "Bash(cmd //c \"npx next build 2>&1\":*)",
+      "Bash(ls -la \"F:\\\\_Dev\\\\website\\\\.next\"\" 2>&1 || echo \"No .next dir \")"
     ]
   }
 }

@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { title: "Investments", path: "/investments" },
   { title: "Engineering", path: "/engineering" },
+  { title: "Demo", path: "/demo" },
   { title: "Art", path: "https://art-gallery-ext.vercel.app/", external: true },
   { title: "Publications", path: "/publications" },
 ];

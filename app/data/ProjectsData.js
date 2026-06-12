@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    slug: "steinway-mcp",
+    title: "MCP Server - Steinway & Sons Factory Labor Analytics",
+    description: "An MCP server exposing 22 analytical tools over piano factory labor data, enabling floor supervisors to query utilization, efficiency, and overtime via natural language.",
+    year: 2026,
+    externalUrl: "https://github.com/alcidenik0pol/columbiaprocessimprovementgrowth",
+  },
+  {
     slug: "parkour-rl-agent",
     title: "Reinforcement Learning - Parkour Agent Game in Unity ML-Agents using Proximal Policy Optimization",
     description: "Developed an RL agent that learns parkour movements in Unity using ML-Agents and PPO algorithm.",
