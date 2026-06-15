@@ -18,6 +18,9 @@ export function getEmbedUrl(url, type) {
     case "iframe": {
       return url;
     }
+    case "video": {
+      return url;
+    }
     default:
       return null;
   }

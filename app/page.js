@@ -44,15 +44,13 @@ function EngineeringItemRow({ item }) {
   return (
     <div className="flex justify-between items-start gap-3 py-2 group">
       <div className="flex-1 min-w-0">
-        <a
-          href={item.externalUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href={`/demo/${item.slug}`}
           className="block group-hover:text-primary transition-colors"
         >
           <p className="text-sm text-muted-foreground font-light">{category}</p>
           <p className="font-medium">{subtitle}</p>
-        </a>
+        </Link>
       </div>
       <span className="text-xs text-muted-foreground shrink-0">{item.year}</span>
     </div>
@@ -111,10 +109,8 @@ export default function Home() {
 
         {/* Engineering */}
         <section id="engineering" className="mb-8">
-          <a
-            href="https://github.com/alcidenik0pol"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/engineering"
             className="group inline-flex items-center gap-1 text-xs font-medium text-muted-foreground uppercase tracking-wider mb-3 hover:text-foreground transition-colors"
           >
             Engineering
@@ -133,7 +129,7 @@ export default function Home() {
               <path d="M5 12h14" />
               <path d="m12 5 7 7-7 7" />
             </svg>
-          </a>
+          </Link>
           <div className="space-y-1">
             {engineeringData.map((project) => (
               <EngineeringItemRow key={project.slug} item={project} />

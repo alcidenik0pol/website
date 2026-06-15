@@ -22,7 +22,11 @@ export default function EngineeringPage() {
         </header>
         <div className="space-y-1">
           {engineeringData.map((project) => (
-            <PublicationCard key={project.slug} publication={project} />
+            <PublicationCard
+              key={project.slug}
+              publication={project}
+              internalHref={`/demo/${project.slug}`}
+            />
           ))}
         </div>
       </main>

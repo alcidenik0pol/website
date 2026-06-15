@@ -32,7 +32,15 @@ export default function DemoSlugPage({ params }) {
         <h1 className="text-xl md:text-2xl font-light tracking-tight mb-6 truncate">
           {project.title}
         </h1>
-        {embedUrl ? (
+        {demo && demo.demoType === "video" && embedUrl ? (
+          <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+            <video
+              src={embedUrl}
+              controls
+              className="absolute inset-0 w-full h-full rounded bg-black object-contain"
+            />
+          </div>
+        ) : embedUrl ? (
           <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
             <iframe
               src={embedUrl}

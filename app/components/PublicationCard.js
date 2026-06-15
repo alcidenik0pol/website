@@ -1,7 +1,8 @@
-import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
+import { ArrowUpRight, ArrowRight } from "lucide-react";
 import { Badge } from "./ui/badge";
 
-export default function PublicationCard({ publication }) {
+export default function PublicationCard({ publication, internalHref }) {
   const { title, description, year, type, externalUrl, exit, exitAmount, ipo, ipoAmount } = publication;
 
   const typeLabel = type === "investment" ? "Investment" : "Engineering";
@@ -31,7 +32,14 @@ export default function PublicationCard({ publication }) {
             </Badge>
           )}
         </div>
-        {externalUrl ? (
+        {internalHref ? (
+          <Link
+            href={internalHref}
+            className="text-base font-medium text-foreground group-hover:text-primary transition-colors"
+          >
+            {title}
+          </Link>
+        ) : externalUrl ? (
           <a
             href={externalUrl}
             target="_blank"
@@ -49,7 +57,15 @@ export default function PublicationCard({ publication }) {
           {description}
         </p>
       </div>
-      {externalUrl && (
+      {internalHref ? (
+        <Link
+          href={internalHref}
+          className="text-muted-foreground hover:text-foreground transition-colors mt-1"
+          aria-label="View demo"
+        >
+          <ArrowRight className="w-4 h-4" />
+        </Link>
+      ) : externalUrl ? (
         <a
           href={externalUrl}
           target="_blank"
@@ -59,7 +75,7 @@ export default function PublicationCard({ publication }) {
         >
           <ArrowUpRight className="w-4 h-4" />
         </a>
-      )}
+      ) : null}
     </div>
   );
 }
