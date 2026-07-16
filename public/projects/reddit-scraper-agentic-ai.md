@@ -6,7 +6,7 @@
 **Delivery:** FastAPI + Next.js 15 on Cloud Run via Cloud Build, with WebSocket streaming
 
 <!-- HERO VIDEO — autoplay, muted, loop. Main element of the page. -->
-**Watch:** [Live deployment](https://painpan-frontend-953400329307.us-central1.run.app/)
+**Watch:** [Live deployment](https://agenticaicolumbia-fb.web.app/)
 
 ## The Gist
 
@@ -45,4 +45,4 @@ All classify and cluster calls use Flash (cheap). Only hypothesis generation use
 ## Links
 
 - [GitHub](https://github.com/alcidenik0pol/project-2-agentic-ai)
-- [Live deployment](https://painpan-frontend-953400329307.us-central1.run.app/)
+- [Live deployment](https://agenticaicolumbia-fb.web.app/)
