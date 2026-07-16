@@ -20,7 +20,11 @@
       "Bash(then echo \"READY after $i tries\")",
       "Bash(break)",
       "Bash(fi:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ]
   }
 }
