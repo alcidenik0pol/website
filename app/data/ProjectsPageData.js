@@ -21,7 +21,7 @@ const projectsPageData = [
   },
   {
     slug: "cyberpunk-rpg",
-    title: "AI-Native 3D RPG (deusexdragon)",
+    title: "AI-Native 3D RPG (Deus Ex: Neon Merlion)",
     demoSlug: "cyberpunk-rpg",
     video: null,
     architecture: "/images/architectures/deusex.png",

@@ -1,4 +1,4 @@
-# AI-Native 3D RPG (deusexdragon)
+# AI-Native 3D RPG (Deus Ex: Neon Merlion)
 
 **Tagline:** AI-native 3D RPG where LLM dialogue resolves quests and unlocks levels.
 **Date:** Apr 2025 to Aug 2025 (5 months)
