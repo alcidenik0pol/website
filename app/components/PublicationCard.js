@@ -61,7 +61,7 @@ export default function PublicationCard({ publication, internalHref }) {
         <Link
           href={internalHref}
           className="text-muted-foreground hover:text-foreground transition-colors mt-1"
-          aria-label="View demo"
+          aria-label="View project"
         >
           <ArrowRight className="w-4 h-4" />
         </Link>

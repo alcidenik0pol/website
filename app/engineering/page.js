@@ -1,6 +1,7 @@
 import ResearcherHeader from "@/app/components/ResearcherHeader";
 import PublicationCard from "@/app/components/PublicationCard";
 import engineeringData from "@/app/data/ProjectsData";
+import engineeringHref from "@/app/data/engineeringHref";
 
 export const metadata = {
   title: "Engineering | Victor Tenneroni",
@@ -25,7 +26,7 @@ export default function EngineeringPage() {
             <PublicationCard
               key={project.slug}
               publication={project}
-              internalHref={`/demo/${project.slug}`}
+              internalHref={engineeringHref(project.slug)}
             />
           ))}
         </div>

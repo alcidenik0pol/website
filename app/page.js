@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ResearcherHeader from "./components/ResearcherHeader";
 import engineeringData from "./data/ProjectsData";
+import engineeringHref from "./data/engineeringHref";
 import publicationsData from "./data/PublicationsData";
 import investmentsData from "./data/InvestmentsData";
 
@@ -45,7 +46,7 @@ function EngineeringItemRow({ item }) {
     <div className="flex justify-between items-start gap-3 py-2 group">
       <div className="flex-1 min-w-0">
         <Link
-          href={`/demo/${item.slug}`}
+          href={engineeringHref(item.slug)}
           className="block group-hover:text-primary transition-colors"
         >
           <p className="text-sm text-muted-foreground font-light">{category}</p>
