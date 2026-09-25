@@ -23,7 +23,7 @@ npm run lint    # linter
 - `/demo` + `/demo/[slug]` — legacy demo pages (being replaced by `/projects/[slug]`; both systems intentionally kept)
 - `/projects/[slug]` — project pages. **No `/projects` index page exists** — only individual slugs render; visiting `/projects` directly 404s
 - `/publications/[slug]` — publication articles
-- `/stemopt` — STEM OPT employer requirements; standalone shareable page for HR
+- `/stemopt` — standalone shareable page for HR explaining how STEM OPT works for employers; deliberately positive framing (no "requirements"-style wording)
 - `/sitemap` — human-browsable URL tree of the whole site. Walks `app/` with Node `fs` at build time and expands `[slug]` routes from data modules, so new pages appear automatically on rebuild
 
 ### Page pattern
